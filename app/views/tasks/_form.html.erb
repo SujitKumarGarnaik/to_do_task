@@ -1,0 +1,25 @@
+<%= form_with model: task, local: true do |form| %>
+  <div>
+    <%= form.label :title %>
+    <%= form.text_field :title %><br>
+  </div>
+
+  <div>
+    <%= form.label :description %>
+    <%= form.text_area :description %><br>
+  </div>
+
+  <div>
+    <%= form.label :complete %>
+    <%= form.check_box :complete %><br>
+  </div>
+
+  <div>
+    <%= form.label :due_date %>
+    <%= form.datetime_local_field :due_date %><br>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
