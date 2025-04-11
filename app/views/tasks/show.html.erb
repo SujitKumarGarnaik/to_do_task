@@ -1,0 +1,9 @@
+<h2>Showing The Task</h2>
+
+<p><strong>The Task is:</strong> <%= @task.title %></p>
+<p><strong>Description:</strong> <%= @task.description %></p>
+<p><strong>Status of the task:</strong> <%= @task.complete ? "Completed" : "Incomplete" %></p>
+<p><strong>Deadline:</strong> <%= @task.due_date.strftime("%B %d, %Y at %I:%M %p") %></p>
+
+<%= link_to "Back to Tasks", tasks_path %> | 
+<%= link_to "Edit the Task", edit_task_path(@task) %>

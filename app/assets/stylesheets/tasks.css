@@ -1,0 +1,137 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+}
+
+form input[type="submit"] {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+}
+
+table td {
+    background: white;
+}
+
+/* Action Links */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a[href*="edit"] {
+    background: #ffc107;
+    color: black;
+}
+
+a[href*="show"] {
+    background: #17a2b8;
+    color: white;
+}
+
+a[href*="delete"] {
+    background: #dc3545;
+    color: white;
+}
+
+a[href*="new"] {
+    background: #28a745;
+    color: white;
+}
+
+/* Flash Messages */
+.notice {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.alert {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    margin: 10px 0;
+    text-align: center;
+}
