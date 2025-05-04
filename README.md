@@ -1,28 +1,18 @@
-<<<<<<< HEAD
-# to_do_task
-=======
-# README
+# ToDo List App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple and efficient ToDo List web application built using Ruby on Rails. This app allows users to create, update, complete, and delete their daily tasks.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- User authentication (Devise or custom session handling)
+- Add, edit, delete tasks
+- Mark tasks as complete/incomplete
+- View pending and completed tasks separately
+- Clean and responsive UI (ERB-based)
+- Rails MVC structure
 
-* System dependencies
+## Tech Stack
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
->>>>>>> c828306 (comt)
+- **Ruby on Rails** (v7+)
+- **PostgreSQL** (or SQLite for development)
+- **ERB** templates for views
